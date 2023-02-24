@@ -1,3 +1,6 @@
 .header__lang {
   list-style-type: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
 }
