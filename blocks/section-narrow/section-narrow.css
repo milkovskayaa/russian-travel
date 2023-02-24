@@ -1,0 +1,3 @@
+.section-narrow {
+  width: calc(100% - 100px*2);
+}
