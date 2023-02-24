@@ -4,7 +4,8 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 1.05;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   width: 720px;
+  padding-top: 56px;
 }
