@@ -1,0 +1,9 @@
+.item {
+  display: grid;
+  grid-template-columns: minmax(1fr, max-content)  minmax(min-content, max-content);
+  gap: 48px 40px;
+  grid-template-areas:
+        "title ."
+        "title link"
+        "image text";
+}
