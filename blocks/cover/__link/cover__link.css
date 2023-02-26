@@ -29,6 +29,7 @@
 
 .cover__link:hover::before{
   opacity: 0.5;
+  cursor: pointer;
 }
 
 

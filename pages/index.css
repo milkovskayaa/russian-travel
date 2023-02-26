@@ -46,3 +46,6 @@
 @import url(../blocks/footer/__link/_item/footer__link_item.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/root/root.css);
+
+
+@import url(../blocks/label/label.css);
