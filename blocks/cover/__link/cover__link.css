@@ -1,0 +1,10 @@
+.cover__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
