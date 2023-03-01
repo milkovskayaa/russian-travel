@@ -1,4 +1,12 @@
 .footer {
   padding-top: 92px;
+  padding-bottom: 24px;
   display: flex;
+}
+
+@media screen and (max-width:767px) {
+  .footer{
+    flex-direction: column;
+    padding-top: 64px;
+  }
 }

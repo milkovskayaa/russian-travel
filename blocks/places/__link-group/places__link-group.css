@@ -1,3 +1,9 @@
 .places__link-group {
   grid-area: link;
 }
+
+@media screen and (max-width:424px) {
+  .places__link-group {
+    padding: 0 16px 0;
+  }
+}

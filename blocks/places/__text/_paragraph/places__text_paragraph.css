@@ -5,10 +5,23 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
+  /* max-width: 484px;
+  width: 100%; */
 }
 
 .places__text_paragraph:not(:first-child){
   padding-top: 26px;
 }
 
+@media screen and (max-width:1023px) {
+  .places__text_paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .places__text_paragraph {
+    padding: 0 16px 0;
+  }
+}
 

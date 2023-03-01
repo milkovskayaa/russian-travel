@@ -7,3 +7,26 @@
         "title link"
         "image text";
 }
+
+@media screen and (max-width:1279px) {
+  .item {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .item {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .item {
+    gap: 32px;
+    grid-template-areas:
+        "title"
+        "link"
+        "image"
+        "text";
+  }
+}

@@ -5,3 +5,13 @@
   font-weight: 400;
   line-height: 1.15;
 }
+
+.header__lang_link[aria-pressed="true"] {
+  border-bottom: 3px solid #fff;
+}
+
+@media screen and (max-width:424px) {
+  .header__lang_link {
+    font-size: 18px;
+  }
+}

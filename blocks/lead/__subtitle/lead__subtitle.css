@@ -5,7 +5,24 @@
   font-size: 30px;
   line-height: 1.2;
   margin: 0 auto;
-  width: 640px;
+  max-width: 640px;
+  width: 100%;
   text-align: center;
   padding-top: 32px;
 }
+
+@media screen and (max-width:767px) {
+  .lead__subtitle {
+    font-size: 24px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .lead__subtitle {
+    font-size: 16px;
+    padding-top: 16px;
+    max-width: 288px;
+  }
+}
+

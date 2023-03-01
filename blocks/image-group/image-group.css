@@ -1,4 +1,17 @@
 .image-group {
+  width: 100%;
   padding-top: 64px;
   margin: 0 auto;
+}
+
+@media screen and (max-width:1023px){
+  .image-group {
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width:424px){
+  .image-group {
+    padding-top: 40px;
+  }
 }

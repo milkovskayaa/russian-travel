@@ -1,5 +1,30 @@
+.places__item {
+  max-width: 984px;
+  width: 100%;
+}
+
 .places__item:not(:last-child) {
   margin-bottom: 80px;
 }
 
+@media screen and (max-width:1279px) {
+  .places__item {
+    max-width: 928px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .places__item {
+    max-width: 720px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .places__item {
+    max-width: 288px;
+    width: 100%;
+  }
+}
 

@@ -10,3 +10,29 @@
   margin: 0;
   padding-top: 245px;
 }
+
+@media screen and (max-width:1279px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cover__title {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .cover__title {
+    padding-top: 33px;
+    font-size: 32px;
+    max-width: 288px;
+  }
+}

@@ -4,3 +4,15 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+@media screen and (max-width:1023px) {
+  .header{
+    padding: 28px 24px 0px;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .header{
+    padding: 16px 16px 0px;
+  }
+}
