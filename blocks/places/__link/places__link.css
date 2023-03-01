@@ -6,6 +6,6 @@
   line-height: 1.2;
 }
 
-.places__link {
+.places__link:hover {
   cursor: pointer;
 }
