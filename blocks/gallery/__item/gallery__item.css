@@ -9,9 +9,3 @@
     max-height: 264px;
   }
 }
-
-@media screen and (max-width:424px) {
-  .gallery__item{
-    max-height: 216px;
-  }
-}
