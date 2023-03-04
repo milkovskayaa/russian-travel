@@ -17,6 +17,10 @@
     /* max-width: 352px;
     width: 100%; */
   }
+
+  .places__paragraph:not(:first-child){
+    padding-top: 25px;
+  }
 }
 
 @media screen and (max-width:424px) {
