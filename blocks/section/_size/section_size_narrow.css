@@ -1,17 +1,16 @@
-.section-narrow {
-  /* width: calc(100% - 100px*2); */
+.section_size_narrow {
   padding: 0 148px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 @media screen and (max-width:1279px){
-  .section-narrow {
+  .section_size_narrow {
     padding: 0 48px;
   }
 }
 
 @media screen and (max-width:1023px){
-  .section-narrow {
+  .section_size_narrow {
     padding: 0;
   }
 }

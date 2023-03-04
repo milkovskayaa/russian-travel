@@ -1,30 +1,54 @@
 .places__item {
   max-width: 984px;
   width: 100%;
+  display: grid;
+  grid-template-columns: minmax(1fr, max-content)  minmax(min-content, max-content);
+  gap: 48px 40px;
+  grid-template-areas:
+        "title link"
+        "image text";
 }
 
 .places__item:not(:last-child) {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 @media screen and (max-width:1279px) {
   .places__item {
     max-width: 928px;
-    width: 100%;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width:1023px) {
   .places__item {
     max-width: 720px;
-    width: 100%;
+    gap: 48px 28px;
+  }
+
+  .places__item:not(:last-child) {
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .places__item {
+    gap: 32px;
+    grid-template-areas:
+        "title"
+        "link"
+        "image"
+        "text";
   }
 }
 
 @media screen and (max-width:424px) {
   .places__item {
     max-width: 288px;
-    width: 100%;
+  }
+
+  .places__item:not(:last-child) {
+    padding-bottom: 50px;
   }
 }
 

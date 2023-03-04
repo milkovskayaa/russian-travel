@@ -3,12 +3,18 @@
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.05;
+  line-height: 1.04;
   margin: 0 auto;
   text-align: center;
   max-width: 720px;
   width: 100%;
   padding-top: 56px;
+}
+
+@media screen and (max-width:1279px) {
+  .lead__title {
+    padding-top: 48px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -23,6 +29,7 @@
     font-size: 40px;
     max-width: 288px;
     padding-top: 48px;
+    line-height: 1.1;
   }
 }
 

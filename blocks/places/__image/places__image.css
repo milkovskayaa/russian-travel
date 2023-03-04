@@ -8,14 +8,12 @@
 @media screen and (max-width:1279px) {
   .places__image {
     max-width: 440px;
-    width: 100%;
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
   .places__image {
     max-width: 340px;
-    width: 100%;
   }
 }
 

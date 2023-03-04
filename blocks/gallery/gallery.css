@@ -4,6 +4,7 @@
 
 @media screen and (max-width:1023px) {
   .gallery{
+    max-width: 720px;
     padding-top: 88px;
   }
 }
