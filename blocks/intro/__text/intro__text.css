@@ -10,11 +10,11 @@
   margin: 0;
 }
 
-@media screen and (max-width:1023px) {
+/* @media screen and (max-width:1023px) {
   .intro__text {
     max-width: 720px;
   }
-}
+} */
 
 @media screen and (max-width:424px) {
   .intro__text {
